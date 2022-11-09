@@ -15,7 +15,7 @@ Use: ./split_file file-to-split target_dir chunksize
 Ex: ./split_file "/home/xxx/my-movie.webm" "/home/xxx/Documents/split_files" 50
 For help, type: split_file --help
 #  Merge file on Linux (ubuntu/merge_files)
-se:./merge_files split-files-dir result-file
+Use: ./merge_files split-files-dir result-file
 Ex: ./merge_files "/home/xxx/Documents/split_files" "/media/xxx/my-movie.webm"
 For help, type: merge_files --help
 
